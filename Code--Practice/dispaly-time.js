@@ -9,7 +9,7 @@ var second = today.getSeconds();
 
 var prepand = (hour >= 12)? "PM" : "AM";
 
-var format = (hour => 12)? hour - 12 : hour;
+var current_hour = (hour => 12)? hour - 12 : hour;
 
 
 
@@ -38,5 +38,5 @@ if(hour === 0 && prepand === "PM"){
 
 
 
-console.log(`Current time : ${format} ${prepand} : ${minutes} ${second}`);
+console.log(`Current time : ${current_hour} ${prepand} : ${minutes} ${second}`);
 console.log(`Current Hour : ${hour}`);
