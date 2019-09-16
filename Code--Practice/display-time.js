@@ -40,3 +40,5 @@ if(hour === 0 && prepand === "PM"){
 
 console.log(`Current time : ${current_hour} ${prepand} : ${minutes} ${second}`);
 console.log(`Current Hour : ${hour}`);
+
+
