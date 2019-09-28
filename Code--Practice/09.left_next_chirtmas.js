@@ -8,4 +8,5 @@ if(today.getMonth() == 11 && today.getDate() > 25){
 const one_day = 1000*60*60*24;
 
 console.log(`${Math.ceil((cmas.getTime()-today.getTime())/(one_day))} Days left until Chirstmas!`);
+
 // console.log(one_day);
