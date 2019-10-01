@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 onclick="alert('Hello World')">This is Heading One</h1>
+    <h1 onclick="this.innerText='Hello world from JS'">This is Heading Two</h1>
+    <h1 onclick="helloFunc(this)">This is Heading Three</h1>
+    <h1 id="heading_four">This is Heading Four</h1>
+
+    <h1 id="heading_five"> This is Heading Five</h1>
+    <h1 id="heading_six"> This is Heading Six</h1>
+
+
+</body>
+
+
+
+<script>
+
+    // Heading Three
+    function helloFunc(el){
+        el.innerText = 'This is also change by JS'
+    }
+
+    // Heading Four
+    var h = document.getElementById('heading_four');
+    h.onclick = function(){
+        h.innerText = " This is also from JS code"
+    }
+
+    // Heading Five
+
+    var h5 = document.getElementById('heading_five');
+
+    h5.addEventListener('click', function(){
+        this.innerHTML = "This is new content of Heading Five";
+        this.style.color = "tomato"
+    });
+
+    // Heading Six
+
+    var h6 = document.getElementById('heading_six');
+
+    function heading_sixFn (){
+        this.innerHTML = "This heading comes from JS";
+        this.style.color = "green"
+    }
+
+    heading_six.addEventListener('click', heading_sixFn);
+
+</script>
+
+</html>
