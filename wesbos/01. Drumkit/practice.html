@@ -123,26 +123,23 @@
 </body>
 
 <script>
-    function playSound(e) {
-        const audio = document.querySelector(`audio[data-key ="${e.keyCode}"]`);
-        const key = document.querySelector(`.key[data-key ="${e.keyCode}"]`);
-        // if (!audio) return;
-        // audio.currentTime = 0;
+    function playSound(e){
+        const audio = document.querySelector(`audio[data-key = "${e.keyCode}"]`);
+        const key = document.querySelector(`.key[data-key = "${e.keyCode}"]`);
+
+        if(!audio) return;
         audio.play();
-        // key.classList.add('playing');
+        key.classList.add('playing');
+        audio.currentTime = 0;
     }
 
-    // function removeTransition(e) {
-    //     if (e.propertyName !== 'transform') return;
-    //     this.classList.remove('playing');
-    // }
+    function removeTransition(e){
+        if(e.propertyName !== 'transform') return;
+        this.classList.remove('playing');
+    }
 
-
-
-
-
-    // const keys = document.querySelectorAll('.key');
-    // keys.forEach(key => key.addEventListener('transitionend', removeTransition));
+    const keys = document.querySelectorAll('.key');
+    keys.forEach( key => key.addEventListener('transitionend', removeTransition));
 
     window.addEventListener('keydown', playSound);
 </script>
@@ -150,34 +147,3 @@
 </html>
 
 
-
-<!-- 
-    JS addEventListener?
-    JS event? 
-    JS play function ?
-    JS currentTime?
-    JS classList ?
-    JS for each arrow function?
-    JS TransitionEvent ?
-
-
--->
-
-
-
-
-
-<!-- 
-    Note
-    ======
-
-    1. query selector দিয়ে অডিও সিলেক্ট করা হয়েছে । 
-    2. query selector দিয়ে key সিলেক্ট করা হয়েছে । 
-    3. audio play
-    4. remove transition
-    5. add event listerer
-
-
-
-
- -->

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <style>
+        #button{
+            background: #000;
+            color: #fff;
+            margin: 100px auto;
+            width: 100px;
+            padding: 15px;
+            display: block;
+            border: 0px;
+            border-radius: 15px;
+            cursor: pointer;
+        }
+        #button:hover,
+        #button:focus,
+        #button:active
+        {
+            outline:none;
+        }
+        .body{
+            background: #000;
+            width: 150px;
+            height: 150px;
+            border-radius: 100px;
+            margin: 100px auto;
+            transition: all 0.5s cubic-bezier(0.39, 0.575, 0.565, 1);
+        }
+        .body.active{
+            background: tomato;
+        }
+    </style>
+</head>
+<body>
+    <button id="button">button</button>
+    <div class="body"></div>
+</body>
+
+<script>
+    var btn = document.querySelector('#button');
+    var body = document.querySelector('.body');
+
+    function toggleFunc(){
+        return body.classList.toggle("active");
+    }
+
+    btn.addEventListener('click', toggleFunc);
+</script>
+</html>
