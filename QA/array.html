@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+
+
+
+    <script>
+        // index      0        1        2         3        4       5       6
+        var arr = ['saiful', 'rahi', 'foysal', 'imran', 'rahim', 'hadi', 'robin'];
+
+        var slice0 = arr.slice(4);
+
+        // প্রথম চারটা ছাড়া বাকি গুলো slice হবে। 
+        console.log(slice0); //  "rahim", "hadi", "robin"
+
+        // 0 index থেকে 3 index পর্যন্ত slice হবে। 
+        var slice1 = arr.slice(0, 3);
+
+        console.log(slice1); // "saiful", "rahi", "foysal"
+
+
+
+        // 1 index থেকে 5 index পর্যন্ত slice হবে। 
+        var slice2 = arr.slice(1, 5);
+
+        console.log(slice2); // 'rahi', 'foysal', 'imran', 'rahim',
+
+
+
+
+
+
+
+
+
+
+
+        console.log(arr); //'saiful', 'rahi', 'foysal', 'imran', 'rahim', 'hadi', 'robin'
+
+
+        // var spliceArr = arr.splice(3, 1, 'Abir');
+        // console.log(spliceArr); // 'saiful', 'rahi', 'foysal',
+        // console.log(arr); //  'imran', 'rahim', 'hadi', 'robin'
+    </script>
+</body>
+
+</html>
+
+
+
+<!-- 
+
+    Most used Array Method
+
+    1. push()
+    2. pop()
+    3. shift()
+    4. unshift()
+    5. concat()
+    6. join()
+    7. reverse()
+    8. sort()
+    9. slice()
+    10. splice()
+    11. forEach()
+    12. includes()
+    13. filter()
+    14. map()
+    15. reduce()
+    16. some()
+    17. every()
+    18. Array.from()
+    19. Array.of()
+    20. indexOf()
+
+
+
+    1. push():  অ্যারেতে শেষের দিক হতে কোনো নতুন আইটেম অ্যাড করতে
+
+    2. pop(): শেষের দিক হতে আইটেম রিমুভ করতে
+
+    3. shift(): শুরুর দিক হতে আইটেম রিমুভ করতে
+
+    4. unshift(): শুরুর দিক হতে কোনো নতুন আইটেম অ্যাড করতে
+
+    5. concat(): দুই বা ততোধিক array কে এক করার জন্য 
+
+    6. join(): 
+
+    7. reverse():
+
+    8. sort():
+
+    9. slice(): নির্দিষ্ট অংশ copy নতুন একটা array তৈরী করতে  = copy
+
+    10. splice(): 
+    
+        ইন্ডেস্ক নাম্বার দিয়ে কোনো আইটেম রিমুভ করতে  = cut
+        ইন্ডেস্ক নাম্বার দিয়ে কোনো আইটেম রিমুভ না করে অ্যাড করতে
+    
+
+    11. forEach():
+
+    12. includes():
+
+    13. filter():
+
+    14. map():
+
+    15. reduce():
+
+    16. some():
+
+    17. every():
+
+    18. Array.from():
+
+    19. Array.of():
+
+    20. indexOf(): নির্দিষ্ট কোনো আইটেম এর ইন্ডেক্স নাম্বার জানতেঃ
+
+
+ -->
