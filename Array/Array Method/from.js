@@ -1,7 +1,7 @@
 // Array.from() method creates a new,
 
 console.log(Array.from('Saiful islam')); // output : [ 'S', 'a', 'i', 'f', 'u', 'l', ' ', 'i', 's', 'l', 'a', 'm' ]
-console.log(Array.from('5456'));
+// console.log(Array.from('5456'));
 
 console.log(Array.from([1, 2, 3], a => a * a)); // output: [ 1, 4, 9 ]
 
