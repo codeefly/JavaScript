@@ -2,8 +2,8 @@
 
 var array1 = ['a', 'b', 'c'];
 
-const eachFc = array1.forEach(function(abc){
-    console.log(abc)
+const eachFc = array1.forEach(function(abc, index, array1){
+    console.log(abc, index, array1)
 });
 
 
