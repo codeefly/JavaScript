@@ -67,3 +67,18 @@ num4[0].push(4);
 num5[1].push(5);
 
 console.log(numbers);
+
+
+
+
+
+var a1 = ['a1','a2','a3','a4','a5',];
+var b1 = ['b1','b2','b3','b4','b5',];
+var c1 = ['c1','c2','c3','c4','c5',];
+var d1 = ['d1','d2','d3','d4','d5',];
+var e1 = ['e1','e2','e3','e4','e5',];
+
+var aaa = a1.concat(b1, c1);
+var bbb = aaa.concat(d1,e1);
+
+console.log(bbb);

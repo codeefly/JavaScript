@@ -2,6 +2,6 @@
 
 var arr1 = [1, 2, [3, 4]];
 
- const abcd = arr1.fl;
+ const abcd = arr1.flat();
 
 console.log(abcd);
