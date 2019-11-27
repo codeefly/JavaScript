@@ -84,6 +84,55 @@ arr.find(callback(element[, index[, array]])[, thisArg])
 
 
 
+/*
+
+forEach(): Arrray সব element কে ১টা  ১টা  করে আলাদা  করা । 
+
+arr.forEach(callback(currentValue [, index [, array]])[, thisArg]);
+
+
+*/
+
+
+
+
+
+/*
+
+
+includes(): element যদি array এর ভেতর includes করা থাকে,তাহলে true নাহলে false.
+
+arr.includes(valueToFind[, fromIndex])
+
+
+*/
+
+
+
+
+/*
+
+indexOf(): Array ভিতর  element থাকলে  index দেখাবে, না থাকলে -1 দেখাবে ।
+
+arr.indexOf(searchElement[, fromIndex])
+
+
+*/
+
+
+
+
+/*
+
+join(): element সব গুলোকে এক সাথে join করে,তার সাথে  , + - space যোগ করে । 
+
+arr.join([separator])
+
+*/
+
+
+
+
 
 
 

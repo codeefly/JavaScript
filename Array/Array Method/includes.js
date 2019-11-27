@@ -2,7 +2,7 @@
 
 // includes() return true or false
 
-// যদি array ভিতর include থাকে,তাহলে true, নাহলে false
+// যদি array ভিতর include করা থাকে,তাহলে true, নাহলে false
 
 var array1 = [1, 2, 3];
 console.log(array1.includes(2));
