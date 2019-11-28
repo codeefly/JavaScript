@@ -135,14 +135,56 @@ arr.join([separator])
 
 
 
+/*
+
+keys(): new Array Iterator return করে যার  ভেতর এক একটি array index key থাকে। 
+arr.keys()
+
+*/
 
 
 
 
 
+/*
+
+lastIndexOf(): Array ভিতর এক এর অধিক element থাকলে  সেই element এর last index দেখাবে, না থাকলে -1 দেখাবে ।
+
+arr.lastIndexOf(searchElement[, fromIndex])
+
+
+*/
+
+
+/*
+
+map(): creates a new array এবং function এর result সব element এর ভেতর provide করে। 
+
+var new_array = arr.map(function callback(currentValue[, index[, array]]) {
+    // Return element for new_array
+}[, thisArg])
+
+
+*/
 
 
 
 
+/*
 
+pop(): last element remove করে এবং array এর length পরিবর্তন করে। 
+
+arr.pop()
+
+*/
+
+
+
+/*
+
+push(): array শেষের দিকে, এক বা একের অধিক element add করে, বং array এর length পরিবর্তন করে। 
+
+arr.push(element1[, ...[, elementN]])
+
+*/
 
