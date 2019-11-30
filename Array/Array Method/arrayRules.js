@@ -188,3 +188,71 @@ arr.push(element1[, ...[, elementN]])
 
 */
 
+
+
+
+/*
+
+reduce(): logic apply করে, element এর total result বের করে। 
+
+arr.reduce(callback(accumulator, currentValue[, index[, array]])[, initialValue])
+
+*/
+
+
+
+/*
+
+reduceRight(): logic apply করে, element এর right to left,  total result বের করে। 
+
+arr.reduceRight(callback(accumulator, currentValue[, index[, array]])[, initialValue])
+
+
+*/
+
+
+
+/*
+
+reverse(): array element প্রথমটা শেষে, শেষেরটা  প্রথম থেকে শুরু হয়। 
+
+a.reverse()
+
+*/
+
+
+
+
+/*
+
+shift(): array element প্রথম থেকে shift করে নেয়া। cut করে নেয়া। 
+
+arr.shift()
+
+*/
+
+
+
+
+
+/*
+
+slice(): array element copy করে নেয়।  2টা paremeter থাকে, ১ম টা কোথায়  থেকে copy করা শুরু  করবে, ২য় টা  কোথায় পর্যন্ত থামবে। 
+
+arr.slice([begin[, end]])
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
