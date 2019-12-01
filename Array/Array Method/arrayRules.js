@@ -1,7 +1,7 @@
 
-/* 
+/*
 
-concat(): দুই বা অধিক array কে Merge করে। 
+concat(): দুই বা অধিক array কে Merge করে।
 
 const new_array = old_array.concat([value1[, value2[, ...[, valueN]]]])
 
@@ -11,7 +11,7 @@ const new_array = old_array.concat([value1[, value2[, ...[, valueN]]]])
 
 /*
 
-copyWithin() : Array ভেতর থেকে copy করবে। 
+copyWithin() : Array ভেতর থেকে copy করবে।
 
 arr.copyWithin(target[, start[, end]])
 
@@ -21,7 +21,7 @@ arr.copyWithin(target[, start[, end]])
 
 /*
 
-entries() : Array index এর key/value pair return করে। 
+entries() : Array index এর key/value pair return করে।
 
 array.entries()
 
@@ -31,7 +31,7 @@ array.entries()
 
 /*
 
-every(): logic apply করে, boolean return করে। 
+every(): logic apply করে, boolean return করে।
 
 arr.every(callback(element[, index[, array]])[, thisArg])
 
@@ -42,7 +42,7 @@ arr.every(callback(element[, index[, array]])[, thisArg])
 
 /*
 
-fill(): element modify করে। 
+fill(): element modify করে।
 
 arr.fill(value[, start[, end]])
 
@@ -53,7 +53,7 @@ arr.fill(value[, start[, end]])
 
 /*
 
-filter(): logic apply করে element filter করে, নতুন array create করে । 
+filter(): logic apply করে element filter করে, নতুন array create করে ।
 
 var newArray = arr.filter(callback(element[, index[, array]])[, thisArg])
 
@@ -86,7 +86,7 @@ arr.find(callback(element[, index[, array]])[, thisArg])
 
 /*
 
-forEach(): Arrray সব element কে ১টা  ১টা  করে আলাদা  করা । 
+forEach(): Arrray সব element কে ১টা  ১টা  করে আলাদা  করা ।
 
 arr.forEach(callback(currentValue [, index [, array]])[, thisArg]);
 
@@ -124,7 +124,7 @@ arr.indexOf(searchElement[, fromIndex])
 
 /*
 
-join(): element সব গুলোকে এক সাথে join করে,তার সাথে  , + - space যোগ করে । 
+join(): element সব গুলোকে এক সাথে join করে,তার সাথে  , + - space যোগ করে ।
 
 arr.join([separator])
 
@@ -137,7 +137,7 @@ arr.join([separator])
 
 /*
 
-keys(): new Array Iterator return করে যার  ভেতর এক একটি array index key থাকে। 
+keys(): new Array Iterator return করে যার  ভেতর এক একটি array index key থাকে।
 arr.keys()
 
 */
@@ -158,7 +158,7 @@ arr.lastIndexOf(searchElement[, fromIndex])
 
 /*
 
-map(): creates a new array এবং function এর result সব element এর ভেতর provide করে। 
+map(): creates a new array এবং function এর result সব element এর ভেতর provide করে।
 
 var new_array = arr.map(function callback(currentValue[, index[, array]]) {
     // Return element for new_array
@@ -172,7 +172,7 @@ var new_array = arr.map(function callback(currentValue[, index[, array]]) {
 
 /*
 
-pop(): last element remove করে এবং array এর length পরিবর্তন করে। 
+pop(): last element remove করে এবং array এর length পরিবর্তন করে।
 
 arr.pop()
 
@@ -182,7 +182,7 @@ arr.pop()
 
 /*
 
-push(): array শেষের দিকে, এক বা একের অধিক element add করে, বং array এর length পরিবর্তন করে। 
+push(): array শেষের দিকে, এক বা একের অধিক element add করে, বং array এর length পরিবর্তন করে।
 
 arr.push(element1[, ...[, elementN]])
 
@@ -193,7 +193,7 @@ arr.push(element1[, ...[, elementN]])
 
 /*
 
-reduce(): logic apply করে, element এর total result বের করে। 
+reduce(): logic apply করে, element এর total result বের করে।
 
 arr.reduce(callback(accumulator, currentValue[, index[, array]])[, initialValue])
 
@@ -203,7 +203,7 @@ arr.reduce(callback(accumulator, currentValue[, index[, array]])[, initialValue]
 
 /*
 
-reduceRight(): logic apply করে, element এর right to left,  total result বের করে। 
+reduceRight(): logic apply করে, element এর right to left,  total result বের করে।
 
 arr.reduceRight(callback(accumulator, currentValue[, index[, array]])[, initialValue])
 
@@ -214,7 +214,7 @@ arr.reduceRight(callback(accumulator, currentValue[, index[, array]])[, initialV
 
 /*
 
-reverse(): array element প্রথমটা শেষে, শেষেরটা  প্রথম থেকে শুরু হয়। 
+reverse(): array element প্রথমটা শেষে, শেষেরটা  প্রথম থেকে শুরু হয়।
 
 a.reverse()
 
@@ -225,7 +225,7 @@ a.reverse()
 
 /*
 
-shift(): array element প্রথম থেকে shift করে নেয়া। cut করে নেয়া। 
+shift(): array element প্রথম থেকে shift করে নেয়া। cut করে নেয়া।
 
 arr.shift()
 
@@ -237,7 +237,7 @@ arr.shift()
 
 /*
 
-slice(): array element copy করে নেয়।  2টা paremeter থাকে, ১ম টা কোথায়  থেকে copy করা শুরু  করবে, ২য় টা  কোথায় পর্যন্ত থামবে। 
+slice(): array element copy করে নেয়।  2টা paremeter থাকে, ১ম টা কোথায়  থেকে copy করা শুরু  করবে, ২য় টা  কোথায় পর্যন্ত থামবে।
 
 arr.slice([begin[, end]])
 
@@ -246,9 +246,63 @@ arr.slice([begin[, end]])
 
 
 
+/*
+
+
+some(): logic apply করে, element এর value true/false return করে।
+
+arr.some(callback(element[, index[, array]])[, thisArg])
+
+
+*/
 
 
 
+
+/*
+
+sort(): array element কে sort করে । 2টা parameter থাকে, ১ম টা থেকে ২য় টা বা ২য় টা থেকে ১ম টা  বিয়োগ করে।   যেমন  ঃ sory by string, numeric
+
+arr.sort([compareFunction])
+
+
+*/
+
+
+
+/*
+
+slpice(): array element remove or replace করে। এবং add করে । ৩টা  parameter থাকে। ১ম টা  কোথায়  থেকে remove/replace or add করা শুরু  করবে , ২য় টা  হচ্ছে কয়টা element remove/replace or add করবে।
+
+var arrDeletedItems = array.splice(start[, deleteCount[, item1[, item2[, ...]]]])
+
+*/
+
+
+
+
+/*
+
+toString(): array element কে string convert করে ।
+
+arr.toString()
+
+*/
+
+
+/*
+
+unshift(): array এর প্রথমে element add করে এবং array length return করে।
+
+arr.unshift(element1[, ...[, elementN]])
+
+*/
+
+
+/*
+values(): array element এর value return করে। 
+arr.values()
+*/
 
 
 
