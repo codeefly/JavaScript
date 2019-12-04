@@ -300,11 +300,46 @@ arr.unshift(element1[, ...[, elementN]])
 
 
 /*
-values(): array element এর value return করে। 
+
+
+values(): array element এর value return করে।
+
 arr.values()
+
+
 */
 
 
+/*
+
+Cheat Sheet:
+
+
+// Mutating
+push()      // Insert an element at the end
+pop()       // Remove an element from the end
+unshift()   // Inserts an element in the beginning
+shift()     // Remove first element
+
+
+// Iterating
+forEach()   // Iterates an array
+filter()    // Iterates an array and result is filtered array
+map()       // Iterates an array and result is new array
+reduce()    // "Reduces" the array into single value (accumulator)
+
+
+
+// Others
+slice()     // Returns desired elements in a new array
+concat()    // Append one or more arrays with given array 
+
+
+*/
+
+
+
+// https://gist.github.com/ourmaninamsterdam/1be9a5590c9cf4a0ab42
 
 
 
