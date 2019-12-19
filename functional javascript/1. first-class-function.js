@@ -58,6 +58,32 @@ console.log(sum);
 
 // 5. we can pass function as an arguments.
 
+function wow(name, fun){
+    return fun(name);
+}
+
+
+var result = wow('Saiful', sayName);
+console.log(result);
+
 
 
 // 6. we can return function from another function.
+
+function base(b){
+    return function(n){
+        var result = 1;
+
+        for(var i = 0; i < b; i++){
+            result *= n;
+        }
+        return result;
+    }
+}
+
+var power = base(2);
+var result = power(5);
+
+console.log(result);
+console.log(base(2)(2));
+
