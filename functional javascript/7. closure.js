@@ -1,0 +1,1 @@
+// scoper bahir theke jodi kono data/value/variable ase, setai closure
