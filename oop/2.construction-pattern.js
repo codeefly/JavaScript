@@ -13,8 +13,7 @@ function Person(name, email) {
     this.name = name;
     this.email = email;
     this.print = function () {
-        console.log(this.name);
-        
+        console.log(this.name);        
     }
 
 }
