@@ -1,0 +1,9 @@
+{
+    "editor.fontFamily": "'Fira Code', monospace",
+    "files.autoSave": "onFocusChange",
+    "editor.fontSize": 16,
+    "editor.fontLigatures": true,
+    "launch": {
+    
+    },
+}
