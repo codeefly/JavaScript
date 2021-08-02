@@ -1,7 +1,7 @@
 const progress = document.getElementById("progress");
+const circles = document.querySelectorAll(".circle");
 const prev = document.getElementById("prev");
 const next = document.getElementById("next");
-const circles = document.querySelectorAll(".circle");
 
 let currentActive = 1;
 
@@ -11,7 +11,7 @@ next.addEventListener("click", () => {
     if (currentActive > circles.length) {
         currentActive = circles.length;
     }
-    console.log(currentActive);
+    // console.log(currentActive);
     update();
 });
 
@@ -21,7 +21,7 @@ prev.addEventListener("click", () => {
     if (currentActive < 1) {
         currentActive = 1;
     }
-    console.log(currentActive);
+    // console.log(currentActive);
 
     update();
 });
@@ -33,6 +33,8 @@ function update() {
         } else {
             circle.classList.remove("active");
         }
+
+        console.log(circle);
     });
 
     const actives = document.querySelectorAll(".active");
